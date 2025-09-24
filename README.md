@@ -4,7 +4,7 @@ Written in VBScript for maximum backward compatibility and execution stability, 
 
 It is ideal for environments where computers accumulate multiple old printer installations, leading to instability or slow logon times.
 
-#Key Features
+# Key Features
 Printer Removal: Deletes all installed printers on the system.
 
 PDF Exclusions: Excludes specific virtual printers (e.g., CutePDF Writer, Acrobat Distiller) to preserve necessary PDF creation tools.
@@ -15,11 +15,11 @@ Modern Driver Cleanup: Uses pnputil.exe to reliably enumerate and remove all non
 
 Reliability: The use of pnputil.exe eliminates the need for repeated driver cleanup passes, ensuring a thorough job on the first run.
 
-#How to Run
+# How to Run
 Save the code as a .vbs file (e.g., remove_printers_win11.vbs).
 
 Run the script from an Administrator Command Prompt or a management system:
 
-#Bash
+# Bash
 
 cscript remove_printers_win11.vbs
